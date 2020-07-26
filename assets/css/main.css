@@ -1,5 +1,8 @@
+@import "normalize.min.css";
+
 body {
-  background: #333;
+  background: #519738;
+  color: #ffffff;
 }
 .container {
   display: block;
