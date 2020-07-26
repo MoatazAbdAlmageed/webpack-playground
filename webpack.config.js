@@ -1,6 +1,7 @@
 const path = require("path");
 
 module.exports = {
+  watch: true,
   target: "node", // in order to ignore built-in modules like path, fs, etc.
   entry: path.resolve(__dirname, "assets") + "/js",
   output: {
