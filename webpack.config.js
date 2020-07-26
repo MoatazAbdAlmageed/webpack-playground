@@ -27,6 +27,12 @@ module.exports = {
         include: [path.resolve(__dirname, "assets")],
         exclude: path.resolve(__dirname, "node_modules"),
       },
+      {
+        use: ["style-loader", "css-loader", "sass-loader"],
+        test: /\.scss$/,
+        include: [path.resolve(__dirname, "assets")],
+        exclude: path.resolve(__dirname, "node_modules"),
+      },
     ],
   },
 };

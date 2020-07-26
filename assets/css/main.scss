@@ -1,0 +1,23 @@
+@import "normalize.min.css";
+$main: purple;
+$light: #fff;
+body {
+  background: $main;
+  color: #ffffff;
+}
+.container {
+  display: block;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+
+.box {
+  background: $main;
+  border: 2px solid $light;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}

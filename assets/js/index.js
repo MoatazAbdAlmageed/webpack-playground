@@ -1,3 +1,3 @@
 import user from "./user";
-require("../css/main.css");
+require("../css/main.scss");
 console.log(user);
